@@ -296,7 +296,7 @@ while carryOn:
         win_text = 'RED HAS WON THE GAME!'
         text_win = font_win.render(str(win_text), 1, WHITE)
         screen.blit(text_win, (100, 200))
-        breaks
+        break
     text = font.render(str(health_text), 1, WHITE)
     screen.blit(text, (460, 10))
     if health2 <= 0:
